@@ -13,7 +13,7 @@ public class App
 	
 	public int fibonacci(int a){
 	
-		if (a > 2){
+		if (a >= 2){
 			return (fibonacci(a-1) + fibonacci(a-2));
 		}
 	
